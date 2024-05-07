@@ -1,0 +1,14 @@
+@host = http://localhost:7878 
+
+
+###
+GET {{ host }}/about
+
+###
+GET {{ host }}/about/health
+
+###
+POST {{ host }}/xml-to-json
+
+###
+GET {{ host }}/xml-to-json
